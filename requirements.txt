@@ -1,0 +1,22 @@
+# --- Ingestion ---
+requests==2.32.3
+python-dotenv==1.0.1
+
+# --- Staging store ---
+psycopg2-binary==2.9.9
+
+# --- Streaming ---
+kafka-python==2.0.2
+
+# --- Processing ---
+pyspark==3.5.1
+
+# --- Serving store ---
+cassandra-driver==3.29.1
+
+# --- Orchestration (installed in the Airflow image, listed here for reference) ---
+apache-airflow==2.9.3
+
+# --- Testing ---
+pytest==8.2.2
+requests-mock==1.12.1
