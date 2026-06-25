@@ -1,21 +1,15 @@
-# Secrets — NEVER commit
-.env
-
-# Airflow runtime
-logs/
-plugins/
 __pycache__/
 *.pyc
-*.pyo
-.airflow/
-
-# Python
+.env
 .venv/
+venv/
 *.egg-info/
-dist/
-build/
-
-# IDE
-.vscode/
+.pytest_cache/
 .idea/
-*.DS_Store
+.vscode/
+logs/
+docker/volumes/
+*.log
+.DS_Store
+spark-warehouse/
+metastore_db/
